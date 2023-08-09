@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.GlobalBody {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 850px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input,
+textarea {
+    width: 250px;
+    padding: 5px 0px 5px 10px;
+}
+
+.btnAction {
+    color: black;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: all 0.2s ease-in-out;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.btnAction:hover {
+    padding: 12px 0;
+    color: #f2f2f2;
+    background-color: black;
+    cursor: pointer;
+}
